@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="JT Makers 공식 홈페이지. 전문·과학 및 기술 활동, 정보통신 분야의 사업 정보와 연락처를 안내합니다.">
+  <meta name="theme-color" content="#16283B">
+  <title>JT Makers | Official Website</title>
+
+  <!-- Google Search Console 인증 시, 이 줄 아래에 Google에서 발급한 meta 태그를 그대로 붙여 넣으세요. -->
+  <!-- 예: <meta name="google-site-verification" content="Google에서 받은 실제 인증값"> -->
+
+  <style>
+    :root { color-scheme: light; --ink:#16283B; --muted:#697685; --line:#E2E7EB; --bg:#F7F8F6; --white:#FFF; --accent:#3D6F83; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin:0; background:var(--bg); color:var(--ink); font-family:system-ui,-apple-system,"Apple SD Gothic Neo","Malgun Gothic",sans-serif; line-height:1.65; }
+    a { color:inherit; text-decoration:none; }
+    .wrap { max-width:1040px; margin:auto; padding:0 28px; }
+    header { border-bottom:1px solid var(--line); background:var(--white); }
+    .nav { display:flex; align-items:center; justify-content:space-between; min-height:78px; gap:20px; }
+    .brand { display:flex; align-items:center; gap:12px; font-size:20px; font-weight:800; letter-spacing:-.04em; }
+    .mark { display:grid; place-items:center; width:37px; height:37px; background:var(--ink); border-radius:10px; color:#fff; font-size:13px; letter-spacing:-.04em; }
+    nav { display:flex; gap:26px; color:var(--muted); font-size:14px; }
+    nav a:hover { color:var(--ink); }
+    .hero { padding:105px 0 108px; }
+    .eyebrow { margin:0 0 16px; color:var(--accent); font-size:12px; font-weight:800; letter-spacing:.19em; text-transform:uppercase; }
+    h1 { font-size:clamp(50px,8vw,90px); letter-spacing:-.075em; line-height:1.08; margin:0 0 23px; font-weight:850; }
+    .hero p:last-child { max-width:590px; color:var(--muted); font-size:18px; margin:0; line-height:1.85; }
+    .section { padding:0 0 80px; scroll-margin-top:30px; }
+    .section h2 { margin:0 0 19px; font-size:26px; letter-spacing:-.04em; }
+    .grid { display:grid; grid-template-columns:1fr 1fr; gap:18px; }
+    .panel { background:var(--white); border:1px solid var(--line); border-radius:18px; padding:34px; min-height:210px; }
+    .panel h3 { margin:0 0 14px; font-size:17px; letter-spacing:-.02em; }
+    .panel p { margin:0; color:var(--muted); font-size:15px; }
+    .detail { display:grid; grid-template-columns:130px 1fr; gap:12px; border-top:1px solid var(--line); padding:14px 0; font-size:14px; }
+    .detail dt { color:var(--muted); }
+    .detail dd { margin:0; overflow-wrap:anywhere; }
+    .detail:first-of-type { border-top:0; }
+    .note { margin:14px 0 0; color:#7B6D52; font-size:12px; }
+    footer { margin-top:22px; padding:26px 0 36px; border-top:1px solid var(--line); color:var(--muted); font-size:13px; }
+    .footer-inner { display:flex; justify-content:space-between; flex-wrap:wrap; gap:12px; }
+    @media(max-width:680px) { .wrap { padding:0 20px; } .nav { min-height:70px; } nav { gap:15px; font-size:13px; } .hero { padding:80px 0 82px; } .hero p:last-child { font-size:16px; } .grid { grid-template-columns:1fr; } .panel { padding:26px; min-height:unset; } .section { padding-bottom:54px; } .detail { grid-template-columns:100px 1fr; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="#top" aria-label="JT Makers 홈"><span class="mark" aria-hidden="true">JT</span> JT Makers</a>
+      <nav aria-label="주요 메뉴"><a href="#about">소개</a><a href="#business">사업 정보</a><a href="#contact">문의</a></nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <p class="eyebrow">JT MAKERS · OFFICIAL WEBSITE</p>
+      <h1 id="hero-title">JT Makers</h1>
+      <p>JT Makers의 공식 홈페이지입니다.<br>사업 분야와 회사 정보, 문의 연락처를 안내합니다.</p>
+    </section>
+
+    <section class="section wrap" id="about">
+      <h2>About</h2>
+      <div class="grid">
+        <article class="panel">
+          <h3>JT Makers</h3>
+          <p>JT Makers는 대한민국 서울에 소재한 개인사업체입니다. 본 웹사이트를 통해 사업 분야, 사업체 정보 및 연락처를 안내합니다.</p>
+        </article>
+        <article class="panel">
+          <h3>Business</h3>
+          <p>전문·과학 및 기술 활동(Professional, scientific and technical activities)과 정보통신(Information and communication) 분야를 사업 분야로 안내합니다.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section wrap" id="business">
+      <h2>Company Information</h2>
+      <div class="panel">
+        <dl>
+          <div class="detail"><dt>상호명</dt><dd>JT Makers</dd></div>
+          <div class="detail"><dt>대표자</dt><dd>Jo YoungJin</dd></div>
+          <div class="detail"><dt>사업 형태</dt><dd>개인사업자 (Sole Proprietorship)</dd></div>
+          <div class="detail"><dt>사업 분야</dt><dd>Professional, scientific and technical activities / Information and communication</dd></div>
+          <div class="detail"><dt>소재지</dt><dd>41 Gurodong-ro 35ga-gil, Guro-gu, Seoul, Republic of Korea</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="section wrap" id="contact">
+      <h2>Contact</h2>
+      <div class="panel">
+        <h3>사업 문의</h3>
+        <p>이메일: <strong><a href="mailto:jtmakers.co@gmail.com">jtmakers.co@gmail.com</a></strong></p>
+        <p class="note">Business inquiries: Please contact us by email.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-inner"><span>© 2026 JT Makers. All rights reserved.</span><span>Official business website</span></div>
+  </footer>
+</body>
+</html>
